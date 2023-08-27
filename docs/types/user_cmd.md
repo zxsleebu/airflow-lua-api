@@ -1,0 +1,17 @@
+{{ get_arguments_table([
+    ["aimdirection",    "vec3_t",   "Aim direction"],
+    ["command_number",  "number",   "Current command number"],
+    ["impulse",         "number",   "Current impulse command number"],
+    ["tick_count",      "number",   "Current tick count"],
+    ["viewangles",      "vec3_t",   "Crosshair angle"],
+    ["predicted",       "boolean",  "Is predicted"],
+    ["forwardmove",     "number",   "Forward/backward speed"],
+    ["sidemove",        "number",   "Left/right speed"],
+    ["upmove",          "number",   "Up/down speed"],
+    ["buttons",         "number",   "Buttons bit field"],
+    ["random_seed",     "number",   "Random seed for shared random functions"],
+    ["mousedx",         "number",   "Mouse X movement delta"],
+    ["mousedy",         "number",   "Mouse Y movement delta"],
+    ["weaponselect",    "number",   "Selected weapon index"],
+    ["weaponsubtype",   "number",   "Selected weapon subtype (R8 / Deagle, M4A4 / M4A1-S)"],
+]) }}

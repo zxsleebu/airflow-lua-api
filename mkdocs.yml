@@ -1,0 +1,74 @@
+site_name: Airflow API
+nav:
+  - 'Home': 'index.md'
+  - 'renderer.md'
+  - 'menu':
+    - 'menu': 'menu/index.md'
+    - 'types':
+      - 'check_box_t': 'menu/types/check_box_t.md'
+      - 'slider_int_t': 'menu/types/slider_int_t.md'
+      - 'slider_float_t': 'menu/types/slider_float_t.md'
+      - 'combo_box_t': 'menu/types/combo_box_t.md'
+      - 'multi_combo_box_t': 'menu/types/multi_combo_box_t.md'
+      - 'key_bind_t': 'menu/types/key_bind_t.md'
+      - 'color_picker_t': 'menu/types/color_picker_t.md'
+      - 'button_t': 'menu/types/button_t.md'
+  - 'exploits.md'
+  - 'entity.md'
+  - 'events.md'
+  - 'cheat.md'
+  - 'globals.md'
+  - 'types':
+    - 'vec2_t': 'types/vec2_t.md'
+    - 'vec3_t': 'types/vec3_t.md'
+    - 'color': 'types/color.md'
+    - 'entity': 'types/entity.md'
+    - 'user_cmd': 'types/user_cmd.md'
+    # - 'game_event_t': 'types/game_event_t.md'
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  custom_dir: overrides
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.tracking
+    - navigation.prune
+    - navigation.top
+    - navigation.indexes
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+  palette:
+    primary: darkgrey
+    scheme: slate
+markdown_extensions:
+  - toc:
+      title: On this page
+      permalink: true
+  - tables
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true 
+extra_css:
+  - stylesheets/extra.css
+extra:
+  generator: true
+copyright: Copyright &copy; 2016 - 2020 Martin Donath
+plugins:
+  - macros
+  - search
+watch:
+  - main.py
+  - overrides/
+validation:
+  absolute_links: ignore
