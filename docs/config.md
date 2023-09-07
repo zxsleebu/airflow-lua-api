@@ -6,6 +6,13 @@
     ["key", "string", "Key to read"],
 ], "menu_element") }}
 
+??? example
+    ``` lua linenums="1"
+    local hide_shots = config.read("binds.hide_shots.enable")
+    cheat.log(hide_shots:get()) -- read the value
+    hide_shots:set(true) -- set the value
+    ```
+
 ---
 
 ## General infomation
