@@ -15,16 +15,20 @@ nav:
   #     - 'button_t': 'menu/types/button_t.md'
   - 'exploits.md'
   - 'entity.md'
-  - 'events.md'
+  - 'callbacks.md'
+  - 'ui.md'
+  - 'config.md'
   - 'cheat.md'
   - 'globals.md'
+  - 'client_state.md'
   - 'types':
     - 'vec2_t': 'types/vec2_t.md'
     - 'vec3_t': 'types/vec3_t.md'
     - 'color': 'types/color.md'
     - 'entity': 'types/entity.md'
     - 'user_cmd': 'types/user_cmd.md'
-    # - 'game_event_t': 'types/game_event_t.md'
+    - 'menu_element': 'types/menu_element.md'
+    - 'event': 'types/event.md'
 theme:
   name: material
   logo: assets/logo.png

@@ -10,9 +10,12 @@
     ["interval_per_tick",       "number",           "Duration of a tick in seconds"],
     ["interpolation_amount",    "number",           "Amount of interpolation"],
     ["max_clients",             "number",           "Maximum number of players allowed on the server"],
-    ["choked_commands",         "number",           "Count of choked commands"],
-    ["command_ack",             "number",           "Last command that server has been acknowledged of"],
-    ["last_outgoing_command",   "number",           "Number of last command sequence number acknowledged by server"],
-    ["last_command_ack",        "number",           "Last valid received server tick"],
-    ["send_packet",             "boolean",          "Is packet will be sent to the server (fake lag)"]
 ]) }}
+
+<!--
+["choked_commands",         "number",           "Count of choked commands"],
+["command_ack",             "number",           "Last command that server has been acknowledged of"],
+["last_outgoing_command",   "number",           "Number of last command sequence number acknowledged by server"],
+["last_command_ack",        "number",           "Last valid received server tick"],
+["send_packet",             "boolean",          "Is packet will be sent to the server (fake lag)"]
+-->

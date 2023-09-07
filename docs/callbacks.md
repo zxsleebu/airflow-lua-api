@@ -1,4 +1,4 @@
-# events
+# callbacks
 
 {{ define_function("", "on_create_move", [
     ["cmd", "user_cmd", "User command"],
