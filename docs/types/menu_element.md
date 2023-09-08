@@ -5,3 +5,7 @@
 {{ define_function("element", "set", [
     ["value", "any", "Value to set"]
 ], "", True)}}
+---
+{{ define_function("element", "set_visible", [
+    ["value", "any", "Value to set"]
+], "", True)}}
