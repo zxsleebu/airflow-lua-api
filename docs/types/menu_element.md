@@ -7,5 +7,5 @@
 ], "", True)}}
 ---
 {{ define_function("element", "set_visible", [
-    ["value", "any", "Value to set"]
+    ["value", "boolean", "Value to set"]
 ], "", True)}}
