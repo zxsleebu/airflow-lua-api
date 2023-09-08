@@ -107,7 +107,7 @@
 ---
 {{ define_function("renderer", "filled_rect_gradient", [
     ["from",          "vec2_t",  "Start position of a rectangle"],
-    ["to",            "vec2_t",  "Font object"],
+    ["to",            "vec2_t",  "End position of a rectangle"],
     ["col_top_left",  "color_t", "Color of the top left corner"],
     ["col_top_right", "color_t", "Color of the top right corner"],
     ["col_bot_right", "color_t", "Color of the bottom right corner"],
