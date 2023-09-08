@@ -16,7 +16,7 @@
     ```
 ---
 -->
-{{ define_function("render", "create_font", [
+{{ define_function("renderer", "create_font", [
     ["filename", "string", "Path to the font"],
     ["size",     "number", "Font size"],
     ["flags",    "number", "Font flags"],
@@ -41,7 +41,7 @@
     end)
     ``` -->
 ---
-{{ define_function("render", "text_size", [
+{{ define_function("renderer", "text_size", [
     ["text", "string", "Text size of which will be calculated"],
     ["font", "font_t", "Font object"],
     ["size", "number", "Font size", true],
@@ -74,7 +74,7 @@
 ]) }}
 ---
 -->
-{{ define_function("render", "text", [
+{{ define_function("renderer", "text", [
     ["pos",     "vec2_t",  "Position of where text will be rendered"],
     ["text",    "string",  "Text to render"],
     ["font",    "font_t",  "Font object, or `0` = default font, or `1` = pixel font"],
@@ -89,7 +89,7 @@
     ["thickness", "number",  "Thickness of the line", true],
 ]) }} -->
 ---
-{{ define_function("render", "rect", [
+{{ define_function("renderer", "rect", [
     ["from",     "vec2_t",  "Start position of the rectangle"],
     ["to",       "vec2_t",  "End position of the rectangle"],
     ["color",    "color_t", "Color of the rectangle"],
@@ -97,7 +97,7 @@
     ["corner_flags",  "number",  "[Corner flags](#corner-flags)"],
 ]) }}
 ---
-{{ define_function("render", "filled_rect", [
+{{ define_function("renderer", "filled_rect", [
     ["from",     "vec2_t",  "Start position of a rectangle"],
     ["to",       "vec2_t",  "End position of the rectangle"],
     ["color",    "color_t", "Color of the rectangle"],
@@ -105,7 +105,7 @@
     ["corner_flags",  "number",  "[Corner flags](#corner-flags)"],
 ]) }}
 ---
-{{ define_function("render", "filled_rect_gradient", [
+{{ define_function("renderer", "filled_rect_gradient", [
     ["from",          "vec2_t",  "Start position of a rectangle"],
     ["to",            "vec2_t",  "Font object"],
     ["col_top_left",  "color_t", "Color of the top left corner"],
@@ -117,7 +117,7 @@
 ]) }}
 <!-- ["rounding",    "number",   "Rounding of the rectangle", true], -->
 ---
-{{ define_function("render", "circle", [
+{{ define_function("renderer", "circle", [
     ["pos",      "vec2_t",  "Position of the circle"],
     ["color",    "color_t", "Color of the circle"],
     ["radius",   "number",  "Radius of the circle"],
@@ -125,7 +125,7 @@
 ]) }}
 <!-- ["thickness","number",  "Thickness of the circle", true], -->
 ---
-{{ define_function("render", "filled_circle", [
+{{ define_function("renderer", "filled_circle", [
     ["pos",      "vec2_t",  "Position of the circle"],
     ["color",    "color_t", "Color of the circle"],
     ["radius",   "number",  "Radius of the circle"],
