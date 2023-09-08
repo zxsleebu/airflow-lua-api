@@ -21,7 +21,7 @@
         ["callback", "function", "Callback function, that receives " + format_lua_type("entity") + " as an argument"]
     ]) }}
     ```lua linenums="1"
-    entitylist.get_entities("CCSPlayer", false, function(entity)
-        render.circle_fade_3d(entity:get_origin(), 50, color_t.new(1, 0, 0, 0.5), color_t.new(1, 0, 0, 0))
+    entitylist.get_entities(false, false, function(entity)
+        print(entity:get_origin().x, entity:get_origin().y, entity:get_origin().z)
     end)
     ```
