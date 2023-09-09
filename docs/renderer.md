@@ -152,15 +152,14 @@
 ## Corner flags
 
 ``` lua
-16 -- top left
-32 -- top right
-64 -- bottom left
-128 -- bottom right
-240 -- every corner
-48 -- top
-192 -- bottom
-80 -- left
-160 -- right  
+top left -- 1
+top right -- 2
+bottom left -- 4
+bottom right -- 8
+top -- 3
+bottom -- 12
+left -- 5
+right -- 10  
 ```
 
 
