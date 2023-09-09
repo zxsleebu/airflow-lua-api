@@ -52,3 +52,18 @@
     
     color_picker:set(color.new(255, 255, 255)) -- set color picker to white
     ```
+
+
+---
+
+{{ define_function("ui", "add_combo_box", [
+    ["name", "string", "Name of the combo box"],
+    ["elements", "table", "Array of elements"]
+], "menu_element") }}
+
+---
+
+{{ define_function("ui", "add_multi_combo", [
+    ["name", "string", "Name of the multi combo"],
+    ["elements", "table", "Array of elements"]
+], "menu_element") }}
