@@ -27,7 +27,7 @@
     ``` lua
     1   -- Disable hinting. This generally generates 'blurrier' bitmap glyphs when the glyph are rendered in any of the anti-aliased modes.
     2   -- Disable auto-hinter.
-    4   -- Indicates that the auto-hinter is preferred over the font's native hinter.ImGuiFreeTypeBuilderFlags_LightHinting = 1 << 3,   // A lighter hinting    algorithm for gray-level modes. Many generated glyphs are fuzzier but better resemble their original shape. This is achieved by snapping glyphs to the pixel   grid only vertically (Y-axis), as is done by Microsoft's ClearType and Adobe's proprietary font renderer. This preserves inter-glyph spacing in horizontal    text.
+    4   -- Indicates that the auto-hinter is preferred over the font's native hinter.
     8   -- Strong hinting algorithm that should only be used for monochrome output.
     16  -- Styling: Should we artificially embolden the font?
     32  -- Styling: Should we slant the font, emulating italic style?
