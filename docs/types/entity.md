@@ -40,6 +40,9 @@
 ---
 {{ define_function("entity", "spotted", [], "boolean", True) }}
 
+## Getting FFI pointer
+{{ define_function("entity", "ffi", [], "number", True) }}
+
 ## Getting props
 
 {{ define_function("entity", "prop", [
