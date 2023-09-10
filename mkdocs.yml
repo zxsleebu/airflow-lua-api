@@ -21,6 +21,7 @@ nav:
   - 'cheat.md'
   - 'globals.md'
   - 'client_state.md'
+  - 'memory.md'
   - 'types':
     - 'vec2_t': 'types/vec2_t.md'
     - 'vec3_t': 'types/vec3_t.md'
