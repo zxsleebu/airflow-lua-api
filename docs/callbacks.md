@@ -17,3 +17,5 @@
 ]) }}
 ---
 {{ define_function("", "on_paint", []) }}
+---
+{{ define_function("", "on_update_client_side_animation", []) }}
